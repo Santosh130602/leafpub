@@ -1,0 +1,14 @@
+{
+  "name": "bookleaf",
+  "version": "1.0.0",
+  "description": "BookLeaf Publishing - Author Support & Communication Portal",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm start",
+    "start:server": "cd server && npm start",
+    "build:client": "cd client && npm run build"
+  },
+  "private": true
+}
