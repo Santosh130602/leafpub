@@ -2,7 +2,8 @@ import { useEffect, useRef, useCallback } from 'react';
 import { useAuth } from '../context/AuthContext';
 
 // const WS_URL = process.env.REACT_APP_WS_URL || 'ws://localhost:5000/ws';
-const WS_URL = 'ws://localhost:4000/ws';
+const WS_URL = 'ws://leafpub-1.onrender.com/ws';
+
 
 export const useWebSocket = (onMessage) => {
   const { token, isLoggedIn } = useAuth();
